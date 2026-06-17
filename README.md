@@ -32,11 +32,11 @@ When StatusCheckFailed_Instance = 1 but StatusCheckFailed_System = 0, the proble
 
 2. The CPU Saturation → OS Hang Cascade
 
-Sustained 100% CPU → kernel can't service ENA RX buffers → ENA driver memory allocation fails (Failed to allocate strings_buf) → network stack collapses → OS becomes unresponsive → instance status check fails.
+Sustained 100% CPU  → network stack collapses → OS becomes unresponsive → instance status check fails.
 
 3. Shaping Drops = Instance Exceeding Network Limits
 
-Interface Analyzer showing shaping drops means the instance is pushing more traffic than its allowed bandwidth — this is a workload issue, not an AWS-side throttle.
+ ENI metrics showing shaping drops means the instance is pushing more traffic than its allowed bandwidth — this is a workload issue, not an AWS-side throttle.
 
 4. Console Logs Are Critical Evidence
 
