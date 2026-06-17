@@ -53,3 +53,10 @@ If the root cause is workload-driven, new instances will fail the same way — t
 7. Key Tools Used
 
 CloudWatch and Console logs.
+
+Day | June 18
+-------------
+
+Today understand MGN[Migration] concept in simple way :
+
+1. Old Server ➡️ Agent copies everything ➡️ New Server in AWS ➡️ Test it ➡️ Switch over! ✅
