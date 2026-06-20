@@ -27,13 +27,14 @@ Monitor the MGN job under "Launch history" — click on the job ID to track prog
 
 Replication initiation steps:
 ----
-Create security groups
-Launch Replication Server
-Boot Replication Server
-Authenticate with service  <<<<=====//
-Download replication software
-Create staging disks
-Attach staging disks
-Pair Replication Server with AWS Replication Agent
-Connect AWS Replication Agent to Replication Server
-Start data transfer
+
+1. Create security groups
+2. Launch Replication Server
+3. Boot Replication Server
+4. Authenticate with service  
+5. Download replication software
+6. Create staging disks
+7. Attach staging disks
+8. Pair Replication Server with AWS Replication Agent
+9. Connect AWS Replication Agent to Replication Server
+10. Start data transfer
