@@ -60,3 +60,7 @@ Day | June 18
 Today understand MGN[Migration] concept in simple way :
 
 1. Old Server ➡️ Agent copies everything ➡️ New Server in AWS ➡️ Test it ➡️ Switch over! ✅
+
+Lifecycle of Migration phases:
+
+Not ready -> Ready for testing -> Test in progress -> Ready for cutover -> Cutover in progress -> Cutover complete
