@@ -60,3 +60,17 @@ Day | June 18
 Today understand MGN[Migration] concept in simple way :
 
 1. Old Server ➡️ Agent copies everything ➡️ New Server in AWS ➡️ Test it ➡️ Switch over! ✅
+
+
+Steps:
+----
+Connect to the AWS MGN Dashboard
+Click on Source servers, then click on the source server listed
+Under Migration Dashboard, monitor the "Data replication status":
+
+Wait until the "Replication initiation steps" complete
+Wait until "Data replication status" shows "Healthy" and "Lifecycle" shows "Ready for testing"
+Note: This may take between 15 and 20 minutes.
+
+Once ready, launch a Test instance
+Monitor the MGN job under "Launch history" — click on the job ID to track progress
