@@ -44,4 +44,4 @@ Network requirements for MGN :
 This document clearly explains everything for network requirements related to MGN service-
 [+] https://docs.aws.amazon.com/mgn/latest/ug/preparing-environments.html
 
-
+Please check the architecture diagram of MGN service above.
