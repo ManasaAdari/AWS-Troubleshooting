@@ -1,4 +1,4 @@
-
+<img width="1201" height="758" alt="image" src="https://github.com/user-attachments/assets/79c85953-e050-4278-981e-d8bb1192b14e" />
 
 MGN
 -------------
@@ -38,3 +38,10 @@ Replication initiation steps:
 8. Pair Replication Server with AWS Replication Agent
 9. Connect AWS Replication Agent to Replication Server
 10. Start data transfer
+
+Network requirements for MGN :
+
+This document clearly explains everything for network requirements related to MGN service-
+[+] https://docs.aws.amazon.com/mgn/latest/ug/preparing-environments.html
+
+
