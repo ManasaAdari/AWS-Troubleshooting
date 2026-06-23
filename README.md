@@ -64,3 +64,15 @@ Today understand MGN[Migration] concept in simple way :
 Lifecycle of Migration phases:
 
 Not ready -> Ready for testing -> Test in progress -> Ready for cutover -> Cutover in progress -> Cutover complete
+
+Day | June 23
+------------
+
+To list all EC2 instances in your account that were launched from AWS Marketplace AMIs, run:
+
+```
+aws ec2 describe-instances --filters "Name=product-code.type,Values=marketplace"
+```
+
+If the `ProductCodeType` value in the output is `marketplace`, then the instance was launched from an AWS Marketplace AMI.
+
