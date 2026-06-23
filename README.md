@@ -76,3 +76,21 @@ aws ec2 describe-instances --filters "Name=product-code.type,Values=marketplace"
 
 If the `ProductCodeType` value in the output is `marketplace`, then the instance was launched from an AWS Marketplace AMI.
 
+
+Day | June 24
+-------------
+
+For ElasticDiscoveryRecovery or ApplicationMigrationService -
+
+While initiating drill you will face this error sometimes - 
+
+1. Error: An error occurred (InvalidParameterValue) when calling the RunInstances operation: Tag value exceeds the maximum length of 256 characters
+
+There will be a automatic tag contains more characters you can remove that tag to solve this.
+
+
+2. An error occurred (InvalidParameterValue) when calling the RunInstances operation: Address <IP> does not fall within the subnet's address range
+
+You can solve this by placing the option 'NO' in general launch settings at "CopyIPAddress" field or check the CIDR ranges of VPC.
+
+
