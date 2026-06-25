@@ -94,3 +94,10 @@ There will be a automatic tag contains more characters you can remove that tag t
 You can solve this by placing the option 'NO' in general launch settings at "CopyIPAddress" field or check the CIDR ranges of VPC.
 
 
+Day | June 25
+-------------
+
+While initializing the MGN service you need to know this -
+
+Important:
+====The AWS Transform MGN can only be initialized by the IAM user with the "AdministratorAccess" managed policy attached in your AWS account.====
